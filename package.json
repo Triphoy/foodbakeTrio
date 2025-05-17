@@ -23,6 +23,7 @@
     "express-rate-limit": "^7.5.0",
     "fdir": "^6.4.4",
     "firebase": "^11.6.1",
+    "git-filter-repo": "^0.0.30",
     "multer": "^1.4.5-lts.2",
     "path-to-regexp": "^6.2.1",
     "react": "^19.1.0",
