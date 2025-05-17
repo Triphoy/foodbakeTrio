@@ -1,0 +1,47 @@
+/* Подключи шрифт Montserrat (например, через Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* Глобальные переменные */
+:root {
+  --primary-color: #2E54EA; /* Синий */
+  --secondary-color: #FF6B00; /* Оранжевый */
+  --dark-color: #1A1A1A; /* Тёмный фон */
+  --light-color: #FFFFFF; /* Белый текст */
+  --font-main: 'Montserrat', sans-serif; /* Основной шрифт */
+}
+
+/* Сброс стилей и базовые настройки */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: var(--font-main);
+  color: var(--dark-color);
+  line-height: 1.6;
+ padding: 100px 0px;
+ padding-bottom: 0px;
+  margin: 0px auto;
+  
+}
+
+
+
+/* Общие стили для кнопок */
+button {
+  background: var(--primary-color);
+  color: var(--light-color);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: var(--secondary-color);
+}
